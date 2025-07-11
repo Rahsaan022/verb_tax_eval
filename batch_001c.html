@@ -40,7 +40,17 @@
 
 <h2>Verb Taxonomy Annotation</h2>
 <p>Please read the utterance and answer the binary questions below. Then indicate how confident you are in each answer.</p>
-
+<p>Within each sentence, please describe the use of the selected verb ONLY, not the whole sentence itself.</p>
+<br>
+<p>Is the verb:</p>
+<P> 1) Communicatively Targeted? Does the verb's execution communicate to another, like a command or wave?</p>
+<p> 2) Externally Perceptible? Can someone else see it, like "run" or is it internal like "become upset?"</p>
+<p> 3) in the Present? Is the verb happening here and now? Not past, future, or hypothetical (should, could, would) </p>
+<p> 4) describing a State -- "I know Spanish," "He has one" -- or an experience "I studied Spanish," "I will take one."</p>
+<p> 5) Agentive? Does the verb reflect an agent's will or volition? Eg., walking, jumping vs falling or aging. </p>
+<br>
+<p>More demonstrative examples are found beneath each question block. </p>
+<br>
 <!-- NIA Label: Enduring -->
 <div class="utterance-block">
     <p><strong>Utterance:</strong> we have worn different uniforms walked different paths but we have carried the same code always</p>
@@ -98,7 +108,7 @@
 <hr>
 <br>
 <!-- Binary 4 -->
-<div class="question">4. Is this describing an Actual state?</div>
+<div class="question">4. Is this describing a State?</div>
 <div class="radio-group">
     <label><input type="radio" name="q0_4" value="yes"> Yes</label>
     <label><input type="radio" name="q0_4" value="no"> No</label>
@@ -198,7 +208,7 @@
 <hr>
 <br>
 <!-- Binary 4 -->
-<div class="question">4. Is this describing an Actual state?</div>
+<div class="question">4. Is this describing a State?</div>
 <div class="radio-group">
     <label><input type="radio" name="q1_4" value="yes"> Yes</label>
     <label><input type="radio" name="q1_4" value="no"> No</label>
@@ -298,7 +308,7 @@
 <hr>
 <br>
 <!-- Binary 4 -->
-<div class="question">4. Is this describing an Actual state?</div>
+<div class="question">4. Is this describing a state?</div>
 <div class="radio-group">
     <label><input type="radio" name="q2_4" value="yes"> Yes</label>
     <label><input type="radio" name="q2_4" value="no"> No</label>
@@ -398,7 +408,7 @@
 <hr>
 <br>
 <!-- Binary 4 -->
-<div class="question">4. Is this describing an Actual state?</div>
+<div class="question">4. Is this describing a state?</div>
 <div class="radio-group">
     <label><input type="radio" name="q3_4" value="yes"> Yes</label>
     <label><input type="radio" name="q3_4" value="no"> No</label>
@@ -498,7 +508,7 @@
 <hr>
 <br>
 <!-- Binary 4 -->
-<div class="question">4. Is this describing an Actual state?</div>
+<div class="question">4. Is this describing a state?</div>
 <div class="radio-group">
     <label><input type="radio" name="q4_4" value="yes"> Yes</label>
     <label><input type="radio" name="q4_4" value="no"> No</label>
@@ -598,7 +608,7 @@
 <hr>
 <br>
 <!-- Binary 4 -->
-<div class="question">4. Is this describing an Actual state?</div>
+<div class="question">4. Is this describing a state?</div>
 <div class="radio-group">
     <label><input type="radio" name="q5_4" value="yes"> Yes</label>
     <label><input type="radio" name="q5_4" value="no"> No</label>
@@ -698,7 +708,7 @@
 <hr>
 <br>
 <!-- Binary 4 -->
-<div class="question">4. Is this describing an Actual state?</div>
+<div class="question">4. Is this describing a state?</div>
 <div class="radio-group">
     <label><input type="radio" name="q6_4" value="yes"> Yes</label>
     <label><input type="radio" name="q6_4" value="no"> No</label>
@@ -798,7 +808,7 @@
 <hr>
 <br>
 <!-- Binary 4 -->
-<div class="question">4. Is this describing an Actual state?</div>
+<div class="question">4. Is this describing a state?</div>
 <div class="radio-group">
     <label><input type="radio" name="q7_4" value="yes"> Yes</label>
     <label><input type="radio" name="q7_4" value="no"> No</label>
@@ -898,7 +908,7 @@
 <hr>
 <br>
 <!-- Binary 4 -->
-<div class="question">4. Is this describing an Actual state?</div>
+<div class="question">4. Is this describing a state?</div>
 <div class="radio-group">
     <label><input type="radio" name="q8_4" value="yes"> Yes</label>
     <label><input type="radio" name="q8_4" value="no"> No</label>
@@ -998,7 +1008,7 @@
 <hr>
 <br>
 <!-- Binary 4 -->
-<div class="question">4. Is this describing an Actual state?</div>
+<div class="question">4. Is this describing a state?</div>
 <div class="radio-group">
     <label><input type="radio" name="q9_4" value="yes"> Yes</label>
     <label><input type="radio" name="q9_4" value="no"> No</label>
@@ -1041,6 +1051,16 @@
         Experiential vs Stative: “He is running a race.” vs “He is a runner.”
     </div>
 </div>
+
+
+<script>
+  function submitForm() {
+    // You could add form validation here if needed
+    window.location.href = "https://app.prolific.com/submissions/complete?cc=C45E9BZU";
+  }
+</script>
+
+<button onclick="submitForm()">Submit and Complete Study</button>
 
 
 </body>
